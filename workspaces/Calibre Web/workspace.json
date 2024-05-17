@@ -1,0 +1,19 @@
+{
+    "description": "A Calibre-Web container, brought to you by LinuxServer.io.",
+    "docker_registry": "https://lscr.io/linuxserver/",
+    "name": "calibre-web:latest",
+    "image_src": "calibre-web.png",
+    "categories": [
+      "Development"
+    ],
+    "friendly_name": "Calibre Web",
+    "architecture": [
+      "amd64",
+      "arm64"
+    ],
+    "compatibility": [
+      "1.14.x",
+      "1.15.x",
+    ],
+    "uncompressed_size_mb": 2240
+  }
