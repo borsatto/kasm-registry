@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'vTech Academy Registry',
+    description: 'List of vTech Academy workspaces.',
+    icon: 'https://cdn-icons-png.freepik.com/512/4345/4345040.png',
+    listUrl: 'https://github.com/borsatto/kasm-registry/',
+    contactUrl: 'https://github.com/borsatto/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
