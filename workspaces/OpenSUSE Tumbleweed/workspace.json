@@ -2,14 +2,16 @@
   "friendly_name": "OpenSUSE Tumbleweed",
   "image_src": "opensuse.png",
   "description": "openSUSE Tumbleweed is a rolling, easy to use and complete multi-purpose distribution.",
-  "name": "opensuse/tumbleweed:latest",
+  "name": "opensuse/tumbleweed",
   "cores": 4,
   "memory": 8192,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://hub.docker.com/r/opensuse/tumbleweed/",
   "categories": [
-    "Desktop"
+    "Desktop",
+    "Productivity",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
@@ -22,6 +24,7 @@
     "arm64"
   ],
   "compatibility": [
+    "1.14.x",
     "1.15.x"
   ],
   "uncompressed_size_mb": 7660
