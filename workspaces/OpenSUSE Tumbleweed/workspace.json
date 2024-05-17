@@ -1,6 +1,6 @@
 {
   "friendly_name": "OpenSUSE Tumbleweed",
-  "image_src": "blob:https://borsatto.github.io/552bb9e2-d615-4f04-983f-8e2b2038d624",
+  "image_src": "opensuse.png",
   "description": "openSUSE Tumbleweed is a rolling, easy to use and complete multi-purpose distribution.",
   "name": "opensuse/tumbleweed:latest",
   "cores": 4,
@@ -22,7 +22,7 @@
     "arm64"
   ],
   "compatibility": [
-    "1.14.x"
+    "1.16.x"
   ],
   "uncompressed_size_mb": 7660
 }
