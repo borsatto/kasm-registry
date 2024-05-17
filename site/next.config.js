@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'vTech Academy Registry',
     description: 'List of vTech Academy workspaces.',
-    icon: 'https://cdn-icons-png.freepik.com/512/4345/4345040.png',
+    icon: 'https://github.com/borsatto/kasm-registry/blob/1.0/site/public/vtechacademy-logo-icon.png',
     listUrl: 'https://borsatto.github.io/kasm-registry/',
     contactUrl: 'https://borsatto.github.io/kasm-registry/issues',
   },
