@@ -1,1 +1,20 @@
-
+{
+  "description": "OpenSUSE Tumbleweed is a rolling, easy to use and complete multi-purpose distribution..",
+  "docker_registry": "https://index.docker.io/v1/",
+  "name": "opensuse/tumbleweed",
+  "image_src": "image_src": "https://freepngimg.com/thumb/gnome/71412-suse-linux-opensuse-operating-systems-enterprise-distributions-thumb.png",
+  "categories": [
+    "Desktop"
+  ],
+  "friendly_name": "OpenSUSE Tumbleweed",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2170
+}
