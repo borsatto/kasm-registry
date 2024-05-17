@@ -1,8 +1,8 @@
 {
   "friendly_name": "OpenSUSE Tumbleweed",
-  "image_src": "opensuse.png",
+  "image_src": "blob:https://borsatto.github.io/552bb9e2-d615-4f04-983f-8e2b2038d624",
   "description": "openSUSE Tumbleweed is a rolling, easy to use and complete multi-purpose distribution.",
-  "name": "opensuse/tumbleweed",
+  "name": "opensuse/tumbleweed:latest",
   "cores": 4,
   "memory": 8192,
   "gpu_count": 0,
