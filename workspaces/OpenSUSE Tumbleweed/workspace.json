@@ -7,7 +7,7 @@
   "memory": 8192,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://hub.docker.com/r/opensuse/tumbleweed/",
+  "docker_registry": "https://index.docker.io/v1/",
   "categories": [
     "Desktop",
     "Productivity",
