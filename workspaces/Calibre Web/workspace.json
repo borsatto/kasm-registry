@@ -1,6 +1,6 @@
 {
   "description": "Calibre is a powerful and easy to use e-book manager.",
-  "docker_registry": "https://ghcr.io/",
+  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "calibre-web.png",
   "name": "lscr.io/linuxserver/calibre-web:latest",
   "run_config": {
