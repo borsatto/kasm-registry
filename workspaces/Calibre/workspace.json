@@ -18,9 +18,6 @@
     "security_opt": [
       "seccomp=unconfined"
     ],
-    "entrypoint": [
-      "/kasminit"
-    ],
     "user": 1000
   },
   "exec_config": {},
