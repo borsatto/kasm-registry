@@ -14,12 +14,7 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "run_config": {
-    "security_opt": [
-      "seccomp=unconfined"
-    ],
-    "user": 1000
-  },
+  "run_config": {},
   "exec_config": {},
   "architecture": [
     "amd64",
