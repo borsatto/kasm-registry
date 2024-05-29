@@ -2,7 +2,7 @@
   "friendly_name": "CherryTree",
   "image_src": "cherrytree.png",
   "description": "Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code.",
-  "name": "aborsatto/cherrytree",
+  "name": "aborsatto/cherrytree:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
