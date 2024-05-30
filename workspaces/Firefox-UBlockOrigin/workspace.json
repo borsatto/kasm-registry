@@ -1,0 +1,45 @@
+{
+  "friendly_name": "Firefox",
+  "image_src": "firefox.png",
+  "description": "Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.",
+  "name": "aborsatto/firefox-ublockorigin:latest",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Browser"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "security_opt": [
+      "seccomp=unconfined"
+    ],
+    "entrypoint": [
+      "/kasminit"
+    ],
+    "user": 1000
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c 'HOME=/home/kasm-user firefox \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c 'HOME=/home/kasm-user firefox \"$KASM_URL\"'"
+    }
+  },
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x",
+    "1.16.x"
+  ],
+  "uncompressed_size_mb": 1230
+}
