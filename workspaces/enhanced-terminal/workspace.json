@@ -9,6 +9,8 @@
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
   "categories": [
+    "Office",
+    "Development",
     "Productivity"
   ],
   "require_gpu": false,
@@ -16,11 +18,12 @@
   "image_type": "Container",
   "architecture": [
     "amd64"
-  ]
+  ],
   "compatibility": [
     "1.13.x",
     "1.14.x",
     "1.15.x",
     "1.16.x"
   ],
+  "uncompressed_size_mb": 2170
 }
