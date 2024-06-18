@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<p align="center">This repository is a template you can use to create your own registry that will work with Kasm Workspaces. A front end website is automatically generated for you and will look similar to the one below.</p>
+<p align="center">This repository was generated from kasmtech/workspaces_registry_template.</p>
 
 ![image](https://user-images.githubusercontent.com/5698566/230064289-9e8967a1-4ff9-43f3-8495-f4170c23a80f.png)
 
