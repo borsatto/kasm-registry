@@ -1,6 +1,6 @@
 {
   "friendly_name": "Enhanced Terminal (with PowerShell)",
-  "image_src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png",
+  "image_src": "enhanced-terminal.png",
   "description": "Kasm Terminal + modified bashrc + eza + fzf + PowerShell (with PowerCLI / Azure / AWS)",
   "name": "aborsatto/enhanced-terminal:latest",
   "cores": 2,
