@@ -16,12 +16,12 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
+    "run_config": {
+      "hostname":"container"   
+    },
   "architecture": [
     "amd64"
   ],
-  "run_config": {
-    "hostname": "container"
-  }
   "compatibility": [
     "1.13.x",
     "1.14.x",
