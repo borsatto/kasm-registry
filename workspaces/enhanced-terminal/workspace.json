@@ -19,7 +19,7 @@
   "architecture": [
     "amd64"
   ],
-  "exec_config": {
+  "run_config": {
     "hostname": "container"
   }
   "compatibility": [
