@@ -3,7 +3,8 @@
 The currently workspaces can be downloaded either by Kasm Registry or directly from the docker pull (available at https://hub.docker.com/u/aborsatto).
 All images were created using kasm images as bases. 
 
-## CherryTree:
+
+## ![cherrytree](https://github.com/borsatto/kasm-registry/assets/14880143/6bc6e3f5-98c9-4dd9-995a-d6da6b9496d6) CherryTree:
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
@@ -25,7 +26,7 @@ RUN sed -i 's/sublime_text/cherrytree/'  /dockerstartup/custom_startup.sh
 RUN sed -i 's/Sublime/CherryTree/' /dockerstartup/custom_startup.sh
 ```
 
-## Obsidian:
+## ![obsidian](https://github.com/borsatto/kasm-registry/assets/14880143/ce41b101-14b6-4165-833f-8509095f7de6) Obsidian:
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
@@ -54,11 +55,11 @@ RUN sed -i 's/sublime_text/obsidian/'  /dockerstartup/custom_startup.sh
 RUN sed -i 's/Sublime/Obsidian/' /dockerstartup/custom_startup.sh
 ```
 
-## Firefox (with ublock origin):
+## ![firefox-ublockorigin](https://github.com/borsatto/kasm-registry/assets/14880143/70d0707d-e721-4479-8cea-e82d42628f8e) Firefox (with ublock origin):
 Created using the kasm/firefox:1.15.0 image as base image. 
 For this particular image, I just ran the base image, installed the ublock origin plugin and created a new image from the running container. You can learn more about creating images from running containers consulting the official docker documentation (https://docs.docker.com).
 
-## enhanced-terminal:
+## <img width="48" alt="enhanced-terminal" src="https://github.com/borsatto/kasm-registry/assets/14880143/e1c50146-dce7-429a-9b73-0b8737e56fdb"> enhanced-terminal:
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
