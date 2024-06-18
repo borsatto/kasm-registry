@@ -93,7 +93,7 @@ RUN apt update
 # Installing the new pkgs
 RUN apt-get install -y powershell eza fzf
 
-# Removing any unecessary pkgs
+# Removing any unnecessary pkgs
 RUN apt remove -y remmina nextcloud-desktop gimp obs-studio thunderbird vlc slack
 RUN apt update
 RUN apt autoremove -y
