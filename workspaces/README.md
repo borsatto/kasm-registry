@@ -8,7 +8,7 @@ All images were created using kasm images as bases.
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
-```
+```dockerfile
 FROM kasmweb/sublime-text:1.15.0
 LABEL maintainer="borsatto at mail dot com"
 
@@ -30,7 +30,7 @@ RUN sed -i 's/Sublime/CherryTree/' /dockerstartup/custom_startup.sh
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
-```
+```dockerfile
 FROM kasmweb/sublime-text:1.15.0
 LABEL maintainer="borsatto at mail dot com"
 
@@ -63,7 +63,7 @@ For this particular image, I just ran the base image, installed the ublock origi
 Created using the kasm/sublime-text:1.15.0 image as base image. 
 
 #### Dokerfile
-```
+```dockerfile
 FROM kasmweb/sublime-text:1.15.0
 LABEL maintainer="borsatto at mail dot com"
 
@@ -123,7 +123,7 @@ USER 1000
 COPY .bashrc /home/kasm-default-profile/
 ```
 #### custom_startup.sh
-```
+```bash
 #!/usr/bin/env bash
 set -ex
 START_COMMAND="xfce4-terminal"
@@ -213,7 +213,7 @@ fi
 
 #### .bashrc
 Feel free to modify the content of .bashrc to meet your needs.
-```
+```bash
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
